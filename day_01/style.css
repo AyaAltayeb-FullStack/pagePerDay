@@ -1,4 +1,51 @@
-body{
-    font-family: 'Satisfy', cursive;
 
+body{
+    margin:0;
+    padding:0
+}
+
+html{
+    
+    font-family: 'Satisfy', cursive;
+    font-size: 26px;
+    box-sizing: border-box;
+    color: gray;
+}
+
+
+footer{
+    /* background-color: blue; */
+    color: white;
+    background: linear-gradient(to bottom,rgb(35, 35, 168),black);
+    padding: 60 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p{
+    text-transform: uppercase;
+    font-size: 14px;
+    color :rgba(255, 255, 255, .6);
+    margin-bottom:10px
+}
+
+footer ul{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+footer ul li{
+    margin: 0 18px
+}
+footer ul li a{
+    font-size: 36px;
+    cursor:pointer;
+    color:white
+}
+@media(max-width:800px){
+    footer{
+        padding:80px 15px
+    }
 }
