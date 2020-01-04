@@ -1,0 +1,99 @@
+
+body{
+    margin:0;
+    padding:0
+}
+
+html{
+    
+    font-family: 'Satisfy', cursive;
+    font-size: 26px;
+    box-sizing: border-box;
+    color: rgb(160, 159, 159);
+}
+
+
+
+
+#hero{
+    color:white;
+    text-shadow:2px 2px #000 ;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    background-image: url('images/background2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -120px; 
+}
+
+#about{
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+@media(max-width:800px){
+  #hero{
+    font-size: 85%;
+    margin-bottom: 15px;
+    min-height: 600px;
+    background-position: 0 0; 
+
+  }
+  #hero h1,#hero h3{
+      margin:20px
+  }
+}
+
+
+
+
+
+
+/*Footer**************************************** */
+
+
+
+
+
+
+footer{
+    /* background-color: blue; */
+    color: white;
+    /* background: linear-gradient(to right,#00416a,#766f0c ,#ffe000); */
+    background: linear-gradient(to right,#f0c27b,#4b1248);
+
+    padding: 60 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p{
+    text-transform: uppercase;
+    font-size: 14px;
+    color :rgba(255, 255, 255, .6);
+    margin-bottom:10px
+}
+
+footer ul{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+footer ul li{
+    margin: 0 18px
+}
+footer ul li a{
+    font-size: 36px;
+    cursor:pointer;
+    color:white
+}
+@media(max-width:800px){
+    footer{
+        padding:80px 15px
+    }
+}
